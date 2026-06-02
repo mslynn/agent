@@ -1,0 +1,19 @@
+{
+  "name": "tool-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env ./src/hello-langchain.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@langchain/core": "^1.1.48",
+    "@langchain/openai": "^1.4.7",
+    "dotenv": "^17.4.2",
+    "zod": "^4.4.3"
+  }
+}
