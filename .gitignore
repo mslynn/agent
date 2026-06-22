@@ -1,0 +1,8 @@
+.DS_Store
+
+first_agent/.venv/
+first_agent/.venv_py39_backup/
+first_agent/runs/
+
+__pycache__/
+*.pyc
